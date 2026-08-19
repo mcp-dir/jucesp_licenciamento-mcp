@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jucesp_licenciamento-mcp",
+  "title": "JUCESP: Consulta Pública de Licenciamento",
+  "description": "Public business licensing lookup at the São Paulo Board of Trade (JUCESP) by CNPJ. Platform-hosted, ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jucesp_licenciamento-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jucesp_licenciamento"
+    }
+  ]
+}
